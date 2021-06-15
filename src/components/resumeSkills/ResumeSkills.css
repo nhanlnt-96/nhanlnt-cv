@@ -1,0 +1,23 @@
+.resume-skills {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.resume-skills .skills-code, .resume-skills .skills-design {
+  flex: 1;
+  padding: 0 20px;
+}
+.resume-skills .skills-code .ant-progress-text, .resume-skills .skills-design .ant-progress-text {
+  font-size: 13px;
+}
+.resume-skills .skills-code .skills-item, .resume-skills .skills-design .skills-item {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-around;
+  padding: 25px 0;
+}
+.resume-skills .ant-divider-horizontal.ant-divider-with-text::before, .resume-skills .ant-divider-horizontal.ant-divider-with-text::after {
+  border-color: white;
+}
+
+/*# sourceMappingURL=ResumeSkills.css.map */

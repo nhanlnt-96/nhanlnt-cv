@@ -13,7 +13,7 @@ const Homepage: FC = () => {
         <h3>Hello, I am</h3>
         <h2>LE NGUYEN THIEN NHAN</h2>
         <div className="typing-text">
-          I am <b>a Frontend Developer</b>
+          I am <b>a Frontend Developer.</b>
         </div>
       </div>
     </>

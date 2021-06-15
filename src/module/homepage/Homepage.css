@@ -42,6 +42,7 @@
   font-weight: 700;
 }
 .home-title .typing-text {
+  width: 22ch;
   animation: typing 3s steps(22), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
