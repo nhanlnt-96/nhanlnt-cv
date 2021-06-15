@@ -15,4 +15,28 @@
   padding: 5px 0;
 }
 
+.sider-footer {
+  padding: 0 0 10px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: inherit;
+  color: #f5f6fa;
+  opacity: 0.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sider-footer .social-icon {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+.sider-footer p {
+  margin-bottom: 0;
+  font-size: 12px;
+}
+
 /*# sourceMappingURL=Sidebar.css.map */

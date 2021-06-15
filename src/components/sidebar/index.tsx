@@ -1,9 +1,12 @@
 import React, { FC } from 'react';
+import { Link } from 'react-router-dom';
 import Avatar from '../../imgs/avatar.jpg';
 import { sidebarConfig } from "../../configs/sidebar.config";
 import { Menu } from "antd";
 
 import './Sidebar.scss'
+import { Footer } from "antd/es/layout/layout";
+import { FacebookOutlined, GithubOutlined, LinkedinOutlined } from "@ant-design/icons";
 
 const SidebarComponent: FC = () => {
   return (
@@ -18,14 +21,19 @@ const SidebarComponent: FC = () => {
         {
           sidebarConfig.map((val) => (
             <Menu.Item key={val.id} icon={val.icon}>
-              {val.label}
+              <Link to={val.path}>{val.label}</Link>
             </Menu.Item>
           ))
         }
       </Menu>
-      <div className="sider-footer">
-
-      </div>
+      <Footer className='sider-footer'>
+        <div className="social-icon">
+          <FacebookOutlined />
+          <LinkedinOutlined />
+          <GithubOutlined />
+        </div>
+        <p>©2021 NhanLNT</p>
+      </Footer>
     </>
   );
 };

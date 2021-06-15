@@ -1,0 +1,68 @@
+.home-background {
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  &:before {
+    content: "";
+    background: rgba(73, 92, 95, 0.75);
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.home-title {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 200px;
+
+  h3, h2, .typing-text {
+    color: white;
+  }
+
+  h3 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-size: 45px;
+    font-weight: 700;
+  }
+
+  .typing-text {
+    animation: typing 3s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-size: 25px;
+
+    @keyframes typing {
+      from {
+        width: 0
+      }
+    }
+
+    @keyframes blink {
+      50% {
+        border-color: transparent
+      }
+    }
+  }
+}

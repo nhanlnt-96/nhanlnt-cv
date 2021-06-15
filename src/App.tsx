@@ -5,8 +5,9 @@ import './scss/rwd.scss';
 import './scss/App.scss';
 import 'antd/dist/antd.css';
 import SidebarComponent from "./components/sidebar";
+import LayoutModule from "./components/layoutModule";
 
-const { Content, Sider } = Layout;
+const { Sider } = Layout;
 
 function App() {
   return (
@@ -17,9 +18,7 @@ function App() {
       >
         <SidebarComponent />
       </Sider>
-      <Content>
-        content
-      </Content>
+      <LayoutModule />
     </Layout>
   );
 }
