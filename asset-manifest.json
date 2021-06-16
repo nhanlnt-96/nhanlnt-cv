@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/nhanlnt-cv/static/css/main.75bf9cd2.chunk.css",
+    "main.js": "/nhanlnt-cv/static/js/main.23746173.chunk.js",
+    "main.js.map": "/nhanlnt-cv/static/js/main.23746173.chunk.js.map",
+    "runtime-main.js": "/nhanlnt-cv/static/js/runtime-main.c114411e.js",
+    "runtime-main.js.map": "/nhanlnt-cv/static/js/runtime-main.c114411e.js.map",
+    "static/css/2.b8fa45c7.chunk.css": "/nhanlnt-cv/static/css/2.b8fa45c7.chunk.css",
+    "static/js/2.2ebb3ce8.chunk.js": "/nhanlnt-cv/static/js/2.2ebb3ce8.chunk.js",
+    "static/js/2.2ebb3ce8.chunk.js.map": "/nhanlnt-cv/static/js/2.2ebb3ce8.chunk.js.map",
+    "static/js/3.9dbde151.chunk.js": "/nhanlnt-cv/static/js/3.9dbde151.chunk.js",
+    "static/js/3.9dbde151.chunk.js.map": "/nhanlnt-cv/static/js/3.9dbde151.chunk.js.map",
+    "index.html": "/nhanlnt-cv/index.html",
+    "static/css/2.b8fa45c7.chunk.css.map": "/nhanlnt-cv/static/css/2.b8fa45c7.chunk.css.map",
+    "static/css/main.75bf9cd2.chunk.css.map": "/nhanlnt-cv/static/css/main.75bf9cd2.chunk.css.map",
+    "static/js/2.2ebb3ce8.chunk.js.LICENSE.txt": "/nhanlnt-cv/static/js/2.2ebb3ce8.chunk.js.LICENSE.txt",
+    "static/media/avatar.b03b461e.jpg": "/nhanlnt-cv/static/media/avatar.b03b461e.jpg",
+    "static/media/health-declare.d3f1103d.png": "/nhanlnt-cv/static/media/health-declare.d3f1103d.png",
+    "static/media/homepage-bg.01304e19.jpeg": "/nhanlnt-cv/static/media/homepage-bg.01304e19.jpeg",
+    "static/media/landing-page.e8a9a3ea.png": "/nhanlnt-cv/static/media/landing-page.e8a9a3ea.png",
+    "static/media/social-app.ae3c37a4.png": "/nhanlnt-cv/static/media/social-app.ae3c37a4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c114411e.js",
+    "static/css/2.b8fa45c7.chunk.css",
+    "static/js/2.2ebb3ce8.chunk.js",
+    "static/css/main.75bf9cd2.chunk.css",
+    "static/js/main.23746173.chunk.js"
+  ]
+}
