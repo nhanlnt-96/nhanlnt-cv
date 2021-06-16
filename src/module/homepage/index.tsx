@@ -6,10 +6,10 @@ import './Homepage.scss';
 const Homepage: FC = () => {
   return (
     <>
-      <div className="home-background">
+      <div className="home-background animation-class">
         <img src={Bg} alt="homepage-bg" />
       </div>
-      <div className="home-title">
+      <div className="home-title animation-class">
         <h3>Hello, I am</h3>
         <h2>LE NGUYEN THIEN NHAN</h2>
         <div className="typing-text">

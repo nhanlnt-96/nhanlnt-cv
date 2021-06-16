@@ -1,20 +1,13 @@
-.resume-container {
+.resume-component {
   height: 100%;
+  overflow-y: scroll;
+}
+
+.resume-container {
   background-color: #ebf0df;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  .resume-title {
-    text-align: center;
-    padding-top: 24px;
-
-    h2 {
-      font-size: 50px;
-      font-weight: 800;
-      margin-bottom: 0;
-    }
-  }
 
   .resume-content {
     width: 100%;
@@ -28,12 +21,6 @@
     padding-right: 50px;
     display: flex;
     justify-content: flex-end;
-    margin-top: 24px;
-
-    .down-link {
-      text-decoration: none;
-      color: white;
-      padding-left: 10px;
-    }
+    margin: 24px 0;
   }
 }

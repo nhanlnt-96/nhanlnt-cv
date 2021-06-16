@@ -1,0 +1,49 @@
+.contact-component {
+    background-color: #74b9ff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .contact-social,
+    .contact-reach {
+        padding: 0 100px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-social {
+        .social-item {
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+    }
+
+    .ant-divider-horizontal.ant-divider-with-text::before,
+    .ant-divider-horizontal.ant-divider-with-text::after {
+        border-color: white;
+    }
+
+    .contact-reach {
+        .reach-item {
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 0;
+
+            p {
+                font-size: 30px;
+                color: white;
+
+                .anticon {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}

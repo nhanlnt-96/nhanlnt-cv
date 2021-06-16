@@ -1,15 +1,27 @@
+import ContactComponent from "../module/contact";
 import Homepage from "../module/homepage";
+import Portfolio from "../module/portfolio";
 import Resume from "../module/resume";
 
 export const routes = [
   {
-    path: '/',
+    path: "/",
     isExact: true,
-    module: Homepage
+    module: Homepage,
   },
   {
-    path: '/resume',
+    path: "/resume",
     isExact: true,
-    module: Resume
+    module: Resume,
   },
-]
+  {
+    path: "/portfolio",
+    isExact: true,
+    module: Portfolio,
+  },
+  {
+    path: "/contact",
+    isExact: true,
+    module: ContactComponent,
+  },
+];
