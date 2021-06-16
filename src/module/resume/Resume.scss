@@ -8,10 +8,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 100%;
+
+  .resume-body {
+    height: 100%;
+  }
 
   .resume-content {
-    width: 100%;
-
     .resume-education {
       margin-bottom: 24px;
     }

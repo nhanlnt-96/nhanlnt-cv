@@ -1,3 +1,182 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .home-title h3 {
+    font-size: 20px !important;
+  }
+  .home-title h2 {
+    font-size: 24px !important;
+  }
+  .home-title .typing-text {
+    font-size: 19px !important;
+  }
 
+  .resume-container {
+    justify-content: normal !important;
+    overflow-y: scroll;
+  }
+  .resume-container .resume-body .resume-download {
+    padding: 24px;
+  }
+
+  .resume-skills-component {
+    flex-wrap: wrap;
+  }
+
+  .education-timeline .vertical-timeline-element-icon {
+    display: flex;
+    justify-content: center;
+  }
+
+  .resume-skills-component .skills-code .skills-item, .resume-skills-component .skills-design .skills-item {
+    flex-wrap: wrap;
+  }
+  .resume-skills-component .skills-code .skills-item .ant-progress, .resume-skills-component .skills-design .skills-item .ant-progress {
+    padding: 5px 10px;
+  }
+
+  .portfolio-component .portfolio-content {
+    flex-direction: column;
+  }
+  .portfolio-component .portfolio-content .portfolio-item {
+    width: 90% !important;
+  }
+
+  .ant-modal-wrap .ant-modal {
+    width: 90% !important;
+  }
+  .ant-modal-wrap .ant-modal .ant-modal-content .ant-modal-body {
+    padding: 24px 0 !important;
+  }
+  .ant-modal-wrap .ant-modal .ant-modal-content .btn-modal .ant-btn-primary {
+    width: 135px !important;
+  }
+
+  .contact-component .contact-container {
+    padding: 0 50px !important;
+  }
+  .contact-component .contact-container .contact-reach .reach-item {
+    flex-direction: column !important;
+  }
+  .contact-component .contact-container .contact-reach .reach-item p {
+    font-size: 16px !important;
+  }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .home-title h3 {
+    font-size: 25px !important;
+  }
+  .home-title h2 {
+    font-size: 28px !important;
+  }
+  .home-title .typing-text {
+    font-size: 23px !important;
+  }
+
+  .resume-container {
+    justify-content: normal !important;
+    overflow-y: scroll;
+  }
+  .resume-container .resume-body .resume-download {
+    padding: 24px;
+  }
+
+  .resume-skills-component {
+    flex-wrap: wrap;
+  }
+
+  .education-timeline .vertical-timeline-element-icon {
+    display: flex;
+    justify-content: center;
+  }
+
+  .resume-skills-component .skills-code .skills-item, .resume-skills-component .skills-design .skills-item {
+    padding: 0 20px !important;
+    flex-wrap: wrap;
+  }
+  .resume-skills-component .skills-code .skills-item .ant-progress, .resume-skills-component .skills-design .skills-item .ant-progress {
+    padding: 5px 10px;
+  }
+
+  .portfolio-component .portfolio-content {
+    flex-direction: column;
+  }
+  .portfolio-component .portfolio-content .portfolio-item {
+    width: 80% !important;
+  }
+
+  .ant-modal-wrap .ant-modal {
+    width: 90% !important;
+  }
+
+  .contact-component .contact-container {
+    padding: 0 50px !important;
+  }
+  .contact-component .contact-container .contact-reach .reach-item {
+    flex-direction: column !important;
+  }
+  .contact-component .contact-container .contact-reach .reach-item p {
+    font-size: 20px !important;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  .resume-container {
+    justify-content: normal !important;
+    overflow-y: scroll;
+  }
+  .resume-container .resume-body .resume-download {
+    padding: 24px;
+  }
+
+  .resume-skills-component {
+    flex-wrap: wrap;
+  }
+
+  .education-timeline .vertical-timeline-element-icon {
+    display: flex;
+    justify-content: center;
+  }
+
+  .portfolio-component .portfolio-content {
+    flex-direction: column;
+  }
+  .portfolio-component .portfolio-content .portfolio-item {
+    width: 80% !important;
+  }
+
+  .ant-modal-wrap .ant-modal {
+    width: 90% !important;
+  }
+
+  .contact-component .contact-container {
+    padding: 0 50px !important;
+  }
+  .contact-component .contact-container .contact-reach .reach-item {
+    flex-direction: column !important;
+  }
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+  .resume-skills-component {
+    flex-wrap: wrap;
+  }
+
+  .education-timeline .vertical-timeline-element-icon {
+    display: flex;
+    justify-content: center;
+  }
+
+  .portfolio-component .portfolio-content {
+    flex-direction: column;
+  }
+  .portfolio-component .portfolio-content .portfolio-item {
+    width: 80% !important;
+  }
+
+  .ant-modal-wrap .ant-modal {
+    width: 90% !important;
+  }
+
+  .contact-component .contact-container .contact-reach .reach-item {
+    flex-direction: column !important;
+  }
+}
 
 /*# sourceMappingURL=rwd.css.map */

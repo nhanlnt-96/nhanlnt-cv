@@ -21,42 +21,42 @@ const SidebarComponent: FC = () => {
         </div>
         <h1>THIEN NHAN</h1>
       </div>
-      <Menu theme='dark' mode='inline' defaultSelectedKeys={["1"]}>
+      <Menu theme='dark' mode='inline'>
         {sidebarConfig.map((val) => (
           <Menu.Item key={val.id} icon={val.icon}>
             <Link to={val.path}>{val.label}</Link>
           </Menu.Item>
         ))}
       </Menu>
-      <Footer className='sider-footer'>
-        <div className='social-icon'>
-        <a
-            href='https://www.facebook.com/thiennhan.lenguyen/'
-            target='_blank'
-            rel='noreferrer'
-            className='down-link'
-          >
-            <FacebookOutlined style={{ fontSize: "20px" }} />
-          </a>
-          <a
-            href='https://www.linkedin.com/in/nhanlnt'
-            target='_blank'
-            rel='noreferrer'
-            className='down-link'
-          >
-            <LinkedinOutlined style={{ fontSize: "20px" }} />
-          </a>
-          <a
-            href='https://github.com/nhanlnt-96'
-            target='_blank'
-            rel='noreferrer'
-            className='down-link'
-          >
-            <GithubOutlined style={{ fontSize: "20px" }} />
-          </a>
-        </div>
-        <p>©2021 NhanLNT</p>
-      </Footer>
+      {/*<Footer className='sider-footer'>*/}
+      {/*  <div className='social-icon'>*/}
+      {/*    <a*/}
+      {/*      href='https://www.facebook.com/thiennhan.lenguyen/'*/}
+      {/*      target='_blank'*/}
+      {/*      rel='noreferrer'*/}
+      {/*      className='down-link'*/}
+      {/*    >*/}
+      {/*      <FacebookOutlined style={{ fontSize: "20px" }} />*/}
+      {/*    </a>*/}
+      {/*    <a*/}
+      {/*      href='https://www.linkedin.com/in/nhanlnt'*/}
+      {/*      target='_blank'*/}
+      {/*      rel='noreferrer'*/}
+      {/*      className='down-link'*/}
+      {/*    >*/}
+      {/*      <LinkedinOutlined style={{ fontSize: "20px" }} />*/}
+      {/*    </a>*/}
+      {/*    <a*/}
+      {/*      href='https://github.com/nhanlnt-96'*/}
+      {/*      target='_blank'*/}
+      {/*      rel='noreferrer'*/}
+      {/*      className='down-link'*/}
+      {/*    >*/}
+      {/*      <GithubOutlined style={{ fontSize: "20px" }} />*/}
+      {/*    </a>*/}
+      {/*  </div>*/}
+      {/*  <p>©2021 NhanLNT</p>*/}
+      {/*</Footer>*/}
     </>
   );
 };

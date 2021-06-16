@@ -46,6 +46,7 @@ const Portfolio: FC = () => {
         (val) =>
           val.id === portfolioId && (
             <Modal
+              width='70%'
               visible={visible}
               title={val.title}
               footer={[
@@ -54,7 +55,6 @@ const Portfolio: FC = () => {
                 </Button>,
               ]}
               onCancel={handleCancel}
-              width={700}
             >
               <img
                 src={val.image}

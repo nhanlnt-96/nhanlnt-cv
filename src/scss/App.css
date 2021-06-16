@@ -6,6 +6,14 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.ant-layout-sider {
+  z-index: 1;
+}
+
+.ant-layout-content {
+  position: relative;
+}
+
 #components-layout-demo-responsive .logo {
   height: 32px;
   margin: 16px;
@@ -23,6 +31,26 @@
 .layout-container {
   width: 100vw;
   height: 100vh;
+}
+
+.resume-title,
+.portfolio-title,
+.contact-title {
+  text-align: center;
+  padding-top: 24px;
+}
+.resume-title h2,
+.portfolio-title h2,
+.contact-title h2 {
+  font-size: 50px;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
+.down-link {
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
 }
 
 /*# sourceMappingURL=App.css.map */

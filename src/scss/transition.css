@@ -1,5 +1,16 @@
-div {
+.animation-class {
+  position: relative;
   width: 100%;
+  animation: moveLeftToRight 0.3s;
+}
+
+@keyframes moveLeftToRight {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0;
+  }
 }
 
 /*# sourceMappingURL=transition.css.map */

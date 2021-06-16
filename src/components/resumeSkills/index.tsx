@@ -6,7 +6,7 @@ import './ResumeSkills.scss';
 
 const ResumeSkills: FC = () => {
   return (
-    <div className="resume-skills">
+    <div className="resume-skills-component">
       <div className="skills-code">
         <Divider>CODING SKILLS</Divider>
         <div className="skills-item">

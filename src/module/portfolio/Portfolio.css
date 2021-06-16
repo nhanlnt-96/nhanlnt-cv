@@ -1,0 +1,64 @@
+.portfolio-component {
+  background-color: #60d7a9;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+.portfolio-component .portfolio-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex: 1;
+}
+.portfolio-component .portfolio-content .portfolio-item {
+  width: 40%;
+  cursor: pointer;
+  padding: 20px;
+}
+.portfolio-component .portfolio-content .portfolio-item .portfolio-img {
+  overflow: hidden;
+}
+.portfolio-component .portfolio-content .portfolio-item .portfolio-img img {
+  width: 100%;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.portfolio-component .portfolio-content .portfolio-item .portfolio-img img:hover {
+  transform: scale(1.1);
+}
+.portfolio-component .portfolio-content .portfolio-item .portfolio-text {
+  height: 50px;
+  background-color: white;
+  padding: 5px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+.portfolio-component .portfolio-content .portfolio-item .portfolio-text h2 {
+  font-size: 16px;
+  margin-bottom: 0;
+  text-align: center;
+  font-weight: 600;
+}
+
+.ant-modal-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ant-modal-wrap .ant-modal {
+  width: 70%;
+  top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.ant-modal-wrap .ant-btn-primary[disabled] a, .ant-modal-wrap .ant-btn-primary[disabled]:hover a, .ant-modal-wrap .ant-btn-primary[disabled]:focus a, .ant-modal-wrap .ant-btn-primary[disabled]:active a {
+  color: rgba(0, 0, 0, 0.25) !important;
+}
+
+/*# sourceMappingURL=Portfolio.css.map */
