@@ -18,6 +18,7 @@ export const portfolioContent = [
     Users can sign up/sign in account, post content, edit post, delete post, comment post, like post and view profile`,
     image: SocialApp,
     github: "https://github.com/nhanlnt-96/Social-App",
+    live: "https://nhanlnt-96.github.io/Social-App/#/",
   },
   {
     id: 3,

@@ -93,7 +93,6 @@ const Portfolio: FC = () => {
                   type='primary'
                   icon={<CodeOutlined />}
                   size='large'
-                  disabled={val.id === 2 && true}
                 >
                   <a
                     href={val.live}

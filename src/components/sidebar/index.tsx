@@ -5,12 +5,12 @@ import { sidebarConfig } from "../../configs/sidebar.config";
 import { Menu } from "antd";
 
 import "./Sidebar.scss";
-import { Footer } from "antd/es/layout/layout";
-import {
-  FacebookOutlined,
-  GithubOutlined,
-  LinkedinOutlined,
-} from "@ant-design/icons";
+// import { Footer } from "antd/es/layout/layout";
+// import {
+//   FacebookOutlined,
+//   GithubOutlined,
+//   LinkedinOutlined,
+// } from "@ant-design/icons";
 
 const SidebarComponent: FC = () => {
   return (
