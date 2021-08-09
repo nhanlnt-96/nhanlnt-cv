@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/nhanlnt-cv/static/css/main.dc9f6b29.chunk.css",
-    "main.js": "/nhanlnt-cv/static/js/main.c2ccc812.chunk.js",
-    "main.js.map": "/nhanlnt-cv/static/js/main.c2ccc812.chunk.js.map",
+    "main.js": "/nhanlnt-cv/static/js/main.bf33e2c9.chunk.js",
+    "main.js.map": "/nhanlnt-cv/static/js/main.bf33e2c9.chunk.js.map",
     "runtime-main.js": "/nhanlnt-cv/static/js/runtime-main.c114411e.js",
     "runtime-main.js.map": "/nhanlnt-cv/static/js/runtime-main.c114411e.js.map",
     "static/css/2.b8fa45c7.chunk.css": "/nhanlnt-cv/static/css/2.b8fa45c7.chunk.css",
@@ -18,13 +18,14 @@
     "static/media/health-declare.3489c15d.png": "/nhanlnt-cv/static/media/health-declare.3489c15d.png",
     "static/media/homepage-bg.01304e19.jpeg": "/nhanlnt-cv/static/media/homepage-bg.01304e19.jpeg",
     "static/media/landing-page.e8a9a3ea.png": "/nhanlnt-cv/static/media/landing-page.e8a9a3ea.png",
-    "static/media/social-app.ae3c37a4.png": "/nhanlnt-cv/static/media/social-app.ae3c37a4.png"
+    "static/media/social-app.ae3c37a4.png": "/nhanlnt-cv/static/media/social-app.ae3c37a4.png",
+    "static/media/techlife-clothes.b652cbbe.png": "/nhanlnt-cv/static/media/techlife-clothes.b652cbbe.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c114411e.js",
     "static/css/2.b8fa45c7.chunk.css",
     "static/js/2.40547654.chunk.js",
     "static/css/main.dc9f6b29.chunk.css",
-    "static/js/main.c2ccc812.chunk.js"
+    "static/js/main.bf33e2c9.chunk.js"
   ]
 }
