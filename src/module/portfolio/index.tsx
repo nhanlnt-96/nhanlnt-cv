@@ -17,7 +17,6 @@ const Portfolio: FC = () => {
 
   const handleCancel = () => {
     setVisible(false);
-    console.log(visible);
   };
 
   return (
