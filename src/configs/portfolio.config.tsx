@@ -7,7 +7,7 @@ export const portfolioContent = [
   {
     id: 4,
     title: "TechLife | Clothes (Technical: Vue3, Javascript, Vuex," +
-      " router-vue, RESTApi, Bulma",
+      " router-vue, RESTApi, Bulma)",
     subtitle: "User can sign up/sign in, view all products or view product" +
       " by category, add to cart. Fully responsive layout.",
     image: TechLifeClothes,
@@ -17,7 +17,7 @@ export const portfolioContent = [
   {
     id: 1,
     title: "Health Declaration (Technical: Javascript, ReactJs, Ant Design)",
-    subtitle: "- Fully responsive layout.",
+    subtitle: "Fully responsive layout.",
     image: HealthDeclare,
     github: "https://github.com/nhanlnt-96/fresco-health-declare.git",
     live: "https://nhanlnt-96.github.io/fresco-health-declare/#/",
